@@ -1,4 +1,4 @@
-# vue_project2
+# meta-mung-vue
 
 ## Project setup
 ```
