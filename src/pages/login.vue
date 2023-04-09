@@ -24,7 +24,7 @@
         <div><span v-if="failed" class="text-danger">잘못된 아이디 또는 잘못된 비밀번호입니다.</span></div>
       </div>
 
-  	  <button type="submit" @click="submit">로그인</button>
+  	  <button type="submit" id="btn-login" @click="submit">로그인</button>
 	  <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" />
     </form>
     

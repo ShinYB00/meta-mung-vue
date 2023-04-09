@@ -915,9 +915,10 @@ textarea#comment::placeholder {
     background-color: #b7e0f0;
   }
 
-  #btn-signup {
+  #btn-signup1, #btn-signup2, #btn-login {
     width: 260px;
     text-align: center;
     margin: 20px 10px;
+    border-radius: 20px;
     background-color: #b7e0f0;
   }

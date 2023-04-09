@@ -54,7 +54,7 @@
         <input name="address" v-model="member.address" type="text" placeholder="주소지 입력" required>
       </div>
      
-     <button type="submit" id="btn-signup">가입하기</button>
+     <button type="submit" id="btn-signup1">다음</button>
 
     </form>
 
