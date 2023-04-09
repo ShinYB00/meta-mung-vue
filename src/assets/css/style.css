@@ -222,7 +222,14 @@ button {
     padding-top: 27px;
     padding-bottom: 25px;
     background-size: 100%;
-    padding-bottom: 201px;
+    padding-bottom: 300px;
+}
+.header_section1 {
+    width: 100%;
+    background-image: url(@/assets/images/banner-hd.png);
+    height: auto;
+    padding-top: 27px;
+    background-size: 100%;
 }
 .logo {
     width: 100%;
@@ -879,3 +886,38 @@ textarea#comment::placeholder {
     width: 100%;
     float: left;
 }
+
+/* signup */
+.membership > form {
+    width: 260px;
+    margin: 0 auto;
+}
+.membership input {
+    width: 280px;
+    height: 45px;
+    border-radius: 5px;
+    border-style: groove;
+}
+
+#form-id {
+    position: relative;
+}
+
+#form-id button {
+    position: absolute;
+    width: 70px;
+    height: 30px;
+    top: 0;
+    bottom: 0;
+    right: -10px;
+    margin: auto 0;
+    border-radius: 3px;
+    background-color: #b7e0f0;
+  }
+
+  #btn-signup {
+    width: 260px;
+    text-align: center;
+    margin: 20px 10px;
+    background-color: #b7e0f0;
+  }
