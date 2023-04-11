@@ -5,7 +5,8 @@
     <form 
         @submit.prevent="signupForm">
 
-    <div><h2>회원 정보 입력</h2></div>
+    <div v-if="member-info">
+      <div><h2>회원 정보 입력</h2></div>
 
       <div>
         <div>아이디</div>
@@ -53,6 +54,36 @@
         <div>주소</div>
         <input name="address" v-model="member.address" type="text" placeholder="주소지 입력" required>
       </div>
+
+      <button type="submit" id="btn-signup1">다음</button>
+    </div>
+
+    <div v-else>
+      <div>
+        <div>동물 등록 번호</div>
+        <input name="name" v-model="member.name" type="text" placeholder="이름 입력" required>
+      </div>
+
+      <div>
+        <div>이름</div>
+        <input name="birth" v-model="member.birth" type="text" placeholder="생년월일 입력" required>
+      </div>
+
+      <div>
+        <div>생년월일</div>
+        <input name="email" v-model="member.email" type="text" placeholder="이메일 입력" required>
+      </div>
+
+      <div>
+        <div>성별</div>
+        <input name="phone" v-model="member.phone" type="text" placeholder="010-1234-5678">
+      </div>
+
+      <div>
+        <div>주소</div>
+        <input name="address" v-model="member.address" type="text" placeholder="주소지 입력" required>
+      </div>
+    </div>
      
      <button type="submit" id="btn-signup1">다음</button>
 
